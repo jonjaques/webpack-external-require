@@ -1,0 +1,16 @@
+{
+  "name": "webpack-external-require",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel -o index.js src/index.js",
+    "prepublish": "npm run build"
+  },
+  "author": "Jon Jaques <jaquers@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
